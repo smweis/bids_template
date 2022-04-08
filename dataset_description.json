@@ -1,9 +1,0 @@
-{
-    "Name": "DSP_fMRI",
-    "BIDSVersion": "1.2.0",
-    "License": "cc-by",
-    "Authors": [
-        "Eliany Perez",
-        "Steven Weisberg"
-    ]
-}
