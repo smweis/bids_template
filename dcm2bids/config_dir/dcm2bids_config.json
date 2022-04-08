@@ -1,0 +1,274 @@
+{
+  "descriptions": [
+    {
+      "dataType": "anat",
+      "modalityLabel": "T1w",
+      "criteria": {
+        "SeriesDescription": "*T1W*"
+      }
+    },
+    {
+      "dataType": "anat",
+      "modalityLabel": "T2w",
+      "criteria": {
+        "SeriesDescription": "*T2W*"
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-dspfmri_run-01",
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_Run1*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-dspfmri_run-02",
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_Run2*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-dspfmri_run-03",
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_Run3*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-dspfmri_run-04",
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_Run4*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "fmap",
+      "modalityLabel": "epi",
+      "customLabels": "dir-AP",
+      "IntendedFor": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "criteria": {
+        "SeriesDescription": "*Fieldmap A*"
+      },
+      "sidecarChanges": {
+        "PhaseEncodingDirection": "j",
+        "EffectiveEchoSpacing": 0.000108948,
+        "TotalReadoutTime": 0.0173228
+      }
+    },
+    {
+      "dataType": "fmap",
+      "modalityLabel": "epi",
+      "customLabels": "dir-PA",
+      "IntendedFor": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "criteria": {
+        "SeriesDescription": "*Fieldmap P*"
+      },
+      "sidecarChanges": {
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000108948,
+        "TotalReadoutTime": 0.0173228
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-funcLocalizer_run-01",
+      "criteria": {
+        "SeriesDescription": "*BOLD-localizer_Run1*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-funcLocalizer_run-02",
+      "criteria": {
+        "SeriesDescription": "*BOLD-localizer_Run2*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "sbref",
+      "customLabels": "task-funcLocalizer_run-01",
+      "IntendedFor": [
+        8
+      ],
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_sbref-loc1*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "sbref",
+      "customLabels": "task-funcLocalizer_run-02",
+      "IntendedFor": [
+        9
+      ],
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_sbref-loc2*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "sbref",
+      "customLabels": "task-dspfmri_run-01",
+      "IntendedFor": [
+        2
+      ],
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_sbref1*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "sbref",
+      "customLabels": "task-dspfmri_run-02",
+      "IntendedFor": [
+        3
+      ],
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_sbref2*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "sbref",
+      "customLabels": "task-dspfmri_run-03",
+      "IntendedFor": [
+        4
+      ],
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_sbref3*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "sbref",
+      "customLabels": "task-dspfmri_run-04",
+      "IntendedFor": [
+        5
+      ],
+      "criteria": {
+        "SeriesDescription": "*BOLD-fMR_sbref4*"
+      },
+      "sidecarChanges": {
+        "TaskName": "DSP_fMRI",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-rest",
+      "criteria": {
+        "SeriesDescription": "*RS-fMR*"
+      },
+      "sidecarChanges": {
+        "TaskName": "Rest",
+        "PhaseEncodingDirection": "j-",
+        "EffectiveEchoSpacing": 0.000225857,
+        "TotalReadoutTime": 0.0359112
+      }
+    }
+  ]
+}
